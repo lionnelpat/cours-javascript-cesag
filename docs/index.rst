@@ -97,43 +97,43 @@ Structure du cours
 ----
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🔄 Module 0 — Rappel & Environnement
 
    module0-rappel/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: ⚡ Module 1 — Fondations JavaScript
 
    module1-fondations/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🌐 Module 2 — Manipuler le DOM
 
    module2-dom/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: ✅ Module 3 — Formulaires & Validation
 
    module3-formulaires/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🪟 Module 4 — Modals & Storage
 
    module4-modals/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🌍 Module 5 — Fetch API
 
    module5-fetch/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 📦 Module 6 — Librairies & Animations
 
    module6-librairies/index
@@ -147,4 +147,5 @@ Structure du cours
    | **Programme** : Licence MIAGE
    | **Volume horaire** : 30 heures (10 séances × 3h)
    | **Prérequis** : Cours HTML & CSS complété
+   | **Auteur** : Lionnel Patrick DOOKO
    | **Année académique** : 2025–2026
