@@ -1,0 +1,651 @@
+/* ============================================================
+   Charte graphique CESAG — Vert #1A7A2A | Orange #E8420A
+   Thème : Furo (Sphinx)
+   ============================================================ */
+
+/* ==========================================================
+   1. ENTÊTE SIDEBAR — bande verte CESAG en haut
+   ========================================================== */
+
+.sidebar-brand {
+    background-color: #1A7A2A !important;
+    padding: 14px 16px !important;
+}
+
+.sidebar-brand-text {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.sidebar-version {
+    color: rgba(255,255,255,0.75) !important;
+    font-size: 0.8em;
+}
+
+/* ==========================================================
+   2. SIDEBAR NAVIGATION
+   ========================================================== */
+
+/* Caption de section (PARTIE 1 — HTML) */
+.sidebar-tree .caption {
+    color: #1A7A2A !important;
+    font-weight: 700;
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    border-left: 3px solid #1A7A2A;
+    padding-left: 8px;
+    margin-top: 12px;
+    background-color: #e4f2e6 !important;
+    padding: 5px 8px 5px 10px;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Liens du menu */
+.sidebar-tree a {
+    color: #1c1c1c !important;
+}
+
+.sidebar-tree a:hover {
+    color: #1A7A2A !important;
+    background-color: #dceede !important;
+}
+
+/* Lien actif */
+.sidebar-tree .current-page > a,
+.sidebar-tree li.current > a {
+    color: white !important;
+    background-color: #E8420A !important;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+/* Champ de recherche */
+.sidebar-search-container input {
+    background-color: white !important;
+    color: #222 !important;
+    border: 1px solid #c5dfc5 !important;
+}
+
+/* ==========================================================
+   3. CONTENU PRINCIPAL
+   ========================================================== */
+
+.content-icon-container {
+    color: #1A7A2A;
+}
+
+/* Titres */
+article.bd-article h1,
+.rst-content h1,
+h1 {
+    color: #1A7A2A !important;
+    border-bottom: 3px solid #E8420A;
+    padding-bottom: 8px;
+}
+
+article.bd-article h2,
+.rst-content h2,
+h2 {
+    color: #155f22 !important;
+    border-bottom: 1px solid #c8dfc8;
+    padding-bottom: 4px;
+    margin-top: 1.6em;
+}
+
+article.bd-article h3,
+.rst-content h3,
+h3 {
+    color: #1e7a30 !important;
+    margin-top: 1.3em;
+}
+
+/* Liens dans le contenu */
+.rst-content a,
+article a {
+    color: #1A7A2A !important;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.rst-content a:hover,
+article a:hover {
+    color: #E8420A !important;
+    border-bottom-color: #E8420A;
+}
+
+/* ==========================================================
+   4. BLOCS DE CODE — fond très clair, lisible
+   ========================================================== */
+
+/* Code inline */
+code.literal,
+code,
+.rst-content code {
+    background-color: #f0f6f0 !important;
+    color: #1a5020 !important;
+    border: 1px solid #c5dfc5 !important;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.87em;
+}
+
+/* Blocs de code (pre / highlight) */
+.highlight,
+div[class*="highlight"] {
+    background-color: #f4f8f4 !important;
+    border: 1px solid #cde0cd !important;
+    border-left: 4px solid #1A7A2A !important;
+    border-radius: 0 6px 6px 0 !important;
+    margin: 1em 0;
+}
+
+.highlight pre {
+    background-color: #f4f8f4 !important;
+    color: #1c2e1c !important;
+    padding: 14px 16px !important;
+    font-size: 0.875em;
+    line-height: 1.65;
+}
+
+/* Coloration syntaxique sur fond clair */
+.highlight .k,  .highlight .kd,
+.highlight .kn, .highlight .kw  { color: #0e5c8a !important; font-weight: bold; }
+.highlight .s,  .highlight .s1,
+.highlight .s2, .highlight .sb  { color: #b5400e !important; }
+.highlight .c,  .highlight .c1,
+.highlight .cm                  { color: #5a8a5a !important; font-style: italic; }
+.highlight .nt                  { color: #1a5c8a !important; font-weight: bold; }
+.highlight .na                  { color: #6b2f8a !important; }
+.highlight .nv, .highlight .nb  { color: #1a3a1a !important; }
+.highlight .mi, .highlight .mf  { color: #b56500 !important; }
+.highlight .o,  .highlight .p   { color: #555 !important; }
+
+/* ==========================================================
+   5. ADMONITIONS — Furo utilise des classes différentes
+   ========================================================== */
+
+/* Tip → vert CESAG */
+.admonition.tip,
+div.tip {
+    background-color: #edf7ee !important;
+    border-left: 4px solid #1A7A2A !important;
+    color: #1c2e1c !important;
+    border-radius: 0 6px 6px 0;
+}
+.admonition.tip .admonition-title,
+div.tip p.admonition-title,
+.admonition.tip > p:first-child {
+    background-color: #1A7A2A !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 0 0 8px 0;
+    border-radius: 0;
+}
+.admonition.tip p, .admonition.tip li { color: #1c2e1c !important; }
+
+/* Warning / Exercice → orange CESAG */
+.admonition.warning,
+div.warning {
+    background-color: #fff5ef !important;
+    border-left: 4px solid #E8420A !important;
+    color: #2e1a10 !important;
+    border-radius: 0 6px 6px 0;
+}
+.admonition.warning .admonition-title,
+div.warning p.admonition-title,
+.admonition.warning > p:first-child {
+    background-color: #E8420A !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 0 0 8px 0;
+}
+.admonition.warning p, .admonition.warning li { color: #2e1a10 !important; }
+
+/* Note → bleu */
+.admonition.note,
+div.note {
+    background-color: #eef4ff !important;
+    border-left: 4px solid #2979c2 !important;
+    color: #0f1e38 !important;
+    border-radius: 0 6px 6px 0;
+}
+.admonition.note .admonition-title,
+div.note p.admonition-title,
+.admonition.note > p:first-child {
+    background-color: #2979c2 !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 0 0 8px 0;
+}
+.admonition.note p, .admonition.note li { color: #0f1e38 !important; }
+
+/* Important → rouge */
+.admonition.important,
+div.important {
+    background-color: #fdf0f0 !important;
+    border-left: 4px solid #c62828 !important;
+    color: #2e0a0a !important;
+    border-radius: 0 6px 6px 0;
+}
+.admonition.important .admonition-title,
+div.important p.admonition-title,
+.admonition.important > p:first-child {
+    background-color: #c62828 !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 0 0 8px 0;
+}
+.admonition.important p, .admonition.important li { color: #2e0a0a !important; }
+
+/* ==========================================================
+   6. TABLEAUX
+   ========================================================== */
+
+table.docutils thead th,
+.rst-content table.docutils thead th {
+    background-color: #1A7A2A !important;
+    color: white !important;
+    padding: 8px 12px;
+    font-weight: bold;
+    border: 1px solid #155f22;
+}
+
+table.docutils tbody td,
+.rst-content table.docutils tbody td {
+    color: #2c2c2c !important;
+    padding: 7px 12px;
+    border: 1px solid #dde8dd;
+    background-color: white;
+}
+
+table.docutils tbody tr:nth-child(even) td {
+    background-color: #f2f9f2 !important;
+}
+
+table.docutils tbody tr:hover td {
+    background-color: #e4f2e5 !important;
+}
+
+/* ==========================================================
+   7. BOUTONS PRÉCÉDENT / SUIVANT
+   ========================================================== */
+
+.prev-next-bottom .prev-next-title,
+.footer-article a {
+    color: #1A7A2A !important;
+}
+
+.prev-next-area a {
+    color: #1A7A2A !important;
+    border: 1px solid #c8dfc8;
+    border-radius: 6px;
+    transition: background 0.15s;
+}
+
+.prev-next-area a:hover {
+    background-color: #e4f2e5 !important;
+    color: #E8420A !important;
+    border-color: #E8420A;
+}
+
+/* ==========================================================
+   8. RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 768px) {
+    h1 { font-size: 1.4em !important; }
+    h2 { font-size: 1.2em !important; }
+    .highlight pre { font-size: 0.8em !important; }
+}
+
+/* ==========================================================
+   1. SIDEBAR — fond blanc clair pour lisibilité maximale
+   ========================================================== */
+
+/* Fond général du panneau latéral */
+.wy-nav-side {
+    background-color: #f7f7f5 !important;
+}
+
+/* Barre du haut (logo + titre) → vert CESAG */
+.wy-nav-top {
+    background-color: #1A7A2A !important;
+    color: white !important;
+}
+
+/* Zone logo/recherche → vert CESAG */
+.wy-side-nav-search {
+    background-color: #1A7A2A !important;
+}
+
+.wy-side-nav-search > a {
+    color: white !important;
+    font-weight: bold;
+}
+
+.wy-side-nav-search .version {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Champ de recherche */
+.wy-side-nav-search input[type="text"] {
+    background-color: white !important;
+    color: #333 !important;
+    border: 1px solid rgba(255,255,255,0.4) !important;
+}
+
+/* ==========================================================
+   2. MENU DE NAVIGATION — texte foncé sur fond clair
+   ========================================================== */
+
+/* Conteneur du menu */
+.wy-menu-vertical {
+    background-color: #f7f7f5 !important;
+}
+
+/* Tous les liens du menu */
+.wy-menu-vertical a {
+    color: #2c2c2c !important;
+    font-size: 0.9em;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #dceede !important;
+    color: #1A7A2A !important;
+}
+
+/* Caption (titre de section : "PARTIE 1 — HTML") */
+.wy-menu-vertical p.caption {
+    color: #1A7A2A !important;
+    font-weight: bold;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background-color: #e4f2e6 !important;
+    padding: 6px 12px !important;
+    margin-top: 8px !important;
+    border-left: 3px solid #1A7A2A;
+}
+
+.wy-menu-vertical p.caption span.caption-text {
+    color: #1A7A2A !important;
+}
+
+/* Lien actif / page en cours → orange CESAG */
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.on a {
+    background-color: #E8420A !important;
+    color: white !important;
+    border-left: 4px solid #b33208 !important;
+    font-weight: bold;
+}
+
+/* Sous-éléments de la page courante */
+.wy-menu-vertical li.current ul li a {
+    background-color: #fff6f3 !important;
+    color: #333 !important;
+    border-left: 2px solid #f0b49a !important;
+}
+
+.wy-menu-vertical li.current ul li a:hover {
+    background-color: #ffe0d0 !important;
+    color: #E8420A !important;
+}
+
+/* Icône expand/collapse */
+.wy-menu-vertical li span.toctree-expand {
+    color: #888 !important;
+}
+
+.wy-menu-vertical li.current span.toctree-expand,
+.wy-menu-vertical li.on span.toctree-expand {
+    color: white !important;
+}
+
+/* ==========================================================
+   3. ZONE DE CONTENU PRINCIPAL — fond blanc
+   ========================================================== */
+
+.wy-nav-content {
+    background-color: #ffffff !important;
+    color: #2c2c2c !important;
+}
+
+.wy-nav-content-wrap {
+    background-color: #f0f0ee !important;
+}
+
+/* ==========================================================
+   4. TYPOGRAPHIE DU CONTENU
+   ========================================================== */
+
+.rst-content h1 {
+    color: #1A7A2A !important;
+    border-bottom: 3px solid #E8420A;
+    padding-bottom: 8px;
+    margin-top: 0.5em;
+}
+
+.rst-content h2 {
+    color: #155f22 !important;
+    border-bottom: 1px solid #c8e6c9;
+    padding-bottom: 4px;
+    margin-top: 1.4em;
+}
+
+.rst-content h3 {
+    color: #1e7a30 !important;
+    margin-top: 1.2em;
+}
+
+.rst-content h4, .rst-content h5, .rst-content h6 {
+    color: #2c2c2c !important;
+}
+
+.rst-content p,
+.rst-content li,
+.rst-content td {
+    color: #2c2c2c !important;
+    line-height: 1.7;
+}
+
+/* ==========================================================
+   5. BLOCS DE CODE — fond clair, texte lisible
+   ========================================================== */
+
+/* Code inline `balise` */
+.rst-content code.literal,
+.rst-content tt.literal,
+code {
+    background-color: #f0f6f0 !important;
+    border: 1px solid #c5dfc5 !important;
+    color: #1a5c20 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+}
+
+/* Blocs de code (pre) — fond très clair, pas noir */
+.highlight {
+    background-color: #f6f8f6 !important;
+    border: 1px solid #d0e4d0 !important;
+    border-left: 4px solid #1A7A2A !important;
+    border-radius: 0 6px 6px 0;
+}
+
+.highlight pre {
+    background-color: #f6f8f6 !important;
+    color: #1c3a1c !important;
+    padding: 14px 16px;
+    font-size: 0.875em;
+    line-height: 1.6;
+}
+
+/* Coloration syntaxique sur fond clair */
+.highlight .k,  .highlight .kd, .highlight .kn { color: #0e5c8a !important; font-weight: bold; } /* mots-clés */
+.highlight .s,  .highlight .s1, .highlight .s2 { color: #b5400e !important; }                    /* chaînes */
+.highlight .c,  .highlight .c1, .highlight .cm  { color: #6a8f6a !important; font-style: italic;} /* commentaires */
+.highlight .n,  .highlight .na              { color: #1a3a1a !important; }                         /* noms */
+.highlight .nt                              { color: #1a5c8a !important; font-weight: bold; }      /* balises HTML */
+.highlight .nv                              { color: #6b2f8a !important; }                         /* variables */
+.highlight .o,  .highlight .p              { color: #555 !important; }                             /* opérateurs */
+.highlight .mi, .highlight .mf             { color: #b56500 !important; }                          /* nombres */
+
+/* Div entourant le bloc de code */
+div[class^="highlight"],
+div.highlight-html,
+div.highlight-css,
+div.highlight-javascript {
+    background-color: #f6f8f6 !important;
+    border-radius: 6px;
+    margin: 1em 0;
+}
+
+/* ==========================================================
+   6. ADMONITIONS (encadrés tip/warning/note...)
+   ========================================================== */
+
+/* Tip / À retenir → vert CESAG */
+.rst-content .admonition.tip,
+.rst-content div.tip {
+    background-color: #edf7ee !important;
+    border-left: 4px solid #1A7A2A;
+    color: #1c2e1c !important;
+}
+.rst-content .admonition.tip .admonition-title,
+.rst-content div.tip p.admonition-title {
+    background-color: #1A7A2A !important;
+    color: white !important;
+}
+.rst-content .admonition.tip p,
+.rst-content .admonition.tip li {
+    color: #1c2e1c !important;
+}
+
+/* Warning / Exercice → orange CESAG */
+.rst-content .admonition.warning,
+.rst-content div.warning {
+    background-color: #fff5ef !important;
+    border-left: 4px solid #E8420A;
+    color: #2e1a10 !important;
+}
+.rst-content .admonition.warning .admonition-title,
+.rst-content div.warning p.admonition-title {
+    background-color: #E8420A !important;
+    color: white !important;
+}
+.rst-content .admonition.warning p,
+.rst-content .admonition.warning li {
+    color: #2e1a10 !important;
+}
+
+/* Note → bleu */
+.rst-content .admonition.note,
+.rst-content div.note {
+    background-color: #eef4ff !important;
+    border-left: 4px solid #2979c2;
+    color: #0f2040 !important;
+}
+.rst-content .admonition.note .admonition-title,
+.rst-content div.note p.admonition-title {
+    background-color: #2979c2 !important;
+    color: white !important;
+}
+.rst-content .admonition.note p,
+.rst-content .admonition.note li {
+    color: #0f2040 !important;
+}
+
+/* Important → rouge */
+.rst-content .admonition.important,
+.rst-content div.important {
+    background-color: #fdf0f0 !important;
+    border-left: 4px solid #c62828;
+    color: #2e0a0a !important;
+}
+.rst-content .admonition.important .admonition-title,
+.rst-content div.important p.admonition-title {
+    background-color: #c62828 !important;
+    color: white !important;
+}
+.rst-content .admonition.important p,
+.rst-content .admonition.important li {
+    color: #2e0a0a !important;
+}
+
+/* ==========================================================
+   7. TABLEAUX
+   ========================================================== */
+
+.rst-content table.docutils {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rst-content table.docutils thead th {
+    background-color: #1A7A2A !important;
+    color: white !important;
+    padding: 8px 12px;
+    font-weight: bold;
+    border: 1px solid #155f22;
+}
+
+.rst-content table.docutils tbody td {
+    color: #2c2c2c !important;
+    background-color: white;
+    padding: 7px 12px;
+    border: 1px solid #dde8dd;
+}
+
+.rst-content table.docutils tbody tr:nth-child(even) td {
+    background-color: #f2f9f2 !important;
+}
+
+.rst-content table.docutils tbody tr:hover td {
+    background-color: #e4f2e5 !important;
+}
+
+/* ==========================================================
+   8. BOUTONS DE NAVIGATION (Précédent / Suivant)
+   ========================================================== */
+
+.rst-footer-buttons .btn-neutral {
+    background-color: #1A7A2A !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px;
+}
+
+.rst-footer-buttons .btn-neutral:hover {
+    background-color: #155f22 !important;
+}
+
+/* ==========================================================
+   9. BREADCRUMBS ET EN-TÊTE DU CONTENU
+   ========================================================== */
+
+.wy-breadcrumbs li,
+.wy-breadcrumbs li a {
+    color: #555 !important;
+}
+
+.wy-breadcrumbs li.wy-breadcrumbs-aside a {
+    color: #1A7A2A !important;
+}
+
+/* ==========================================================
+   10. RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 768px) {
+    .rst-content h1 { font-size: 1.4em; }
+    .rst-content h2 { font-size: 1.2em; }
+    .highlight pre  { font-size: 0.8em; }
+}
