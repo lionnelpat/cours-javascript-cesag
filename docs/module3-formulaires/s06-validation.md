@@ -466,4 +466,4 @@ Créer le formulaire d'inscription complet avec validation JS temps réel.
 
 ---
 
-*Séance suivante → [Séance 7 — Modals et localStorage](../module4-modals/s07-modals-storage)*
+*Séance suivante → [Séance 7 — Modals et localStorage](../module4-poo/s07-poo)*
